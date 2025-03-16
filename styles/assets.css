@@ -1,0 +1,160 @@
+@font-face {
+    font-family: myFont;
+    src: url(./fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+
+h1 {
+    color: #de5950;
+    padding-left: 8px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    padding: 6px 0;
+}
+
+img {
+    height: 64px;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBackground {
+    border-radius: 16px;
+    margin: 48px 0;
+    background-color: #0d3240;
+    padding: 8px;
+}
+
+.imgBackground {
+    background-color: #114859;
+    display: flex;
+    justify-content: center;
+}
+
+.bookImg {
+    height: 200px;
+    margin: 28px 0;
+}
+
+.bookDIVUnderline {
+    border-bottom: 3px solid #4c90a8;
+    padding-bottom: 8px;
+}
+
+.priceLikes {
+    padding: 24px 12px;
+}
+
+.description {
+    display: flex;
+    padding: 4px;
+}
+
+.descriptionSpace {
+    margin: 0px 8px;
+}
+
+.priceDesign {
+    color: #de5950;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.priceSpace {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spaceLike {
+    padding-right: 6px;
+}
+
+#heart,
+.fa,
+.fas,
+.far {
+    cursor: pointer;
+}
+
+#heart,
+.fa {
+    color: #4c90a8;
+}
+
+#heart:hover,
+.fa:hover,
+.fas:hover,
+.far:hover {
+    color: red;
+}
+
+.fas,
+.fas.liked {
+    color: red;
+}
+
+.footerImg {
+    height: 128px;
+}
+
+.footerText {
+    font-size: 16px;
+    margin-top: -24px;
+    padding-bottom: 24px;
+}
+
+.headlineComment {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.commentSection {
+    padding: 16px 4px;
+}
+
+.usernameSpace {
+    padding-right: 80px;
+    margin-top: 24px;
+}
+
+.commentSpace {
+    margin-top: 24px;
+}
+
+.inputStyle {
+    background-color: #061b23;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    padding: 8px;
+    border-bottom: 3px solid #4c90a8;
+}
+
+.fa {
+    background-color: transparent;
+    border: none;
+}
+
+.inputSpace {
+    padding-top: 36px;
+}
+
+textarea::placeholder {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.commentArea {
+    width: 540px;
+    height: 200px;
+    overflow: auto;
+}
+
+.commentsDFlex {
+    display: flex;
+}

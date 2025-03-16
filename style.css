@@ -1,0 +1,141 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: #082029;
+    padding: 8px;
+}
+
+main {
+    background-color: #05171f;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #082029;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #05171f;
+}
+
+::-webkit-scrollbar-track {
+    background: #05171f;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4c90a8;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #de5950;
+}
+
+@media (max-width: 630px) {
+    img {
+        height: 48px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .bookImg {
+        height: 170px;
+    }
+
+    .mainBackground {
+        width: 340px;
+    }
+
+    .inputStyle {
+        width: 268px;
+    }
+
+    .commentArea {
+        width: 320px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .headlineComment {
+        font-size: 18px;
+    }
+
+    .priceDesign {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 385px) {
+    img {
+        height: 40px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .mainBackground {
+        width: 256px;
+    }
+
+    .inputStyle {
+        width: 195px;
+        height: 78px;
+    }
+
+    .commentArea {
+        width: 240px;
+    }
+
+    .usernameSpace {
+        padding-right: 20px;
+    }
+
+    .priceDesign {
+        font-size: 20px;
+    }
+
+    .footerImg {
+        height: 110px;
+    }
+
+    .footerText {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 295px) {
+    img {
+        height: 32px;
+    }
+
+    h1 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+}
